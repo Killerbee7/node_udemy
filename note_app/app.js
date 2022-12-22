@@ -15,9 +15,7 @@ const validator = require('validator')
 const chalk = require('chalk')
 const yargs = require('yargs');
 const notes = require('./notes.js')
-const { describe } = require('yargs');
-const { argv } = require('process');
-const { removeNote } = require('./notes.js');
+
 // const success = chalk.green('success');
 
 // console.log(success);
@@ -92,8 +90,6 @@ yargs.command({
     },
     handler: function(argv){
         notes.removeNote(argv.title)
-        
-        
         
     }
 
