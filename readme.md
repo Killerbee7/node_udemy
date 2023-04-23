@@ -1,1 +1,1 @@
-Git repo for udemy node course
+Git repo for Udemy node course by John Smilga
